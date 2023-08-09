@@ -219,3 +219,67 @@ nav {
     
     }
   }
+
+
+  
+@media screen and (max-width: 425px) {
+    nav {
+        display: none;
+
+    }
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+       
+    }
+    
+    .main-section > .texthead {
+        margin-bottom: 3rem;
+    }
+    
+    .main-section > .texthead p {
+        color: var(--color-white);
+        margin:1;
+        font-size: 15px;
+    }
+    
+    .main-section > .texthead h1 {
+        color: var(--color-white);
+        margin: 0;
+        font-weight: 400;
+        font-size: 35px;
+    }
+    
+    .main-section > .texthead h3 {
+        color: var(--color-blue);
+        margin: 0;
+        font-size: 15px;
+    }
+    
+    .main-section > .text-body .info-contact p {
+        color: var(--color-grey);
+        font-size: 9px;
+    }
+    
+    .main-section > .text-body .info-attr p .info-const{
+        color: var(--color-blue);
+        font-size: 9px;
+    }
+    
+    
+    .main-section > .text-body .info-attr p .info-name-catt{
+        color: var(--color-green);
+        font-size: 9px;
+    
+    }
+    
+    .main-section > .text-body .info-attr p {
+        color: var(--color-white);
+        font-size: 9px;
+    
+    }
+  }
