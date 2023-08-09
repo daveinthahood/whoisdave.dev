@@ -247,7 +247,7 @@ nav {
         font-size: 15px;
     }
     
-    .main-section > .texthead h1 {
+    .main-section > .texthead .animate{
         color: var(--color-white);
         margin: 0;
         font-weight: 400;
